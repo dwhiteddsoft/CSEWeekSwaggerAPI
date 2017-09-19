@@ -96,17 +96,17 @@
               "required": true,
               "schema": {
                 "type": "integer",
-                "format": "int32",
-                "examples" : {
-                  "get-id-1" : {
-                    "value" : 1
-                  },
-                  "get-id-3" : {
-                    "value" : 3
-                  },
-                  "get-bad-id" : {
-                    "value" : 99
-                  }
+                "format": "int32"
+                },
+              "example" : {
+                "get-id-1": {
+                  "value" : 1
+                },
+                "get-id-5": {
+                  "value" : 5
+                },
+                "get-failure": {
+                  "value" : 99
                 }
               }
             }
